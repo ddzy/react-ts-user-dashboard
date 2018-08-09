@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+}
+
+.login-container, .register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.login-container .login-form-box, .register-form-box {
+  box-sizing: border-box;
+  min-width: 400px;
+  height: 400px;
+  padding: 10px 40px 40px;
+  border: 1px solid #000;
+}
+
+.register-container .register-form-box {
+  /* width: 500px; */
+  padding-top: 50px;
+}
+
+.login-form-button, .register-form-button {
+  width: 100%;
+}
+
+.register-form {
+  padding-top: 10px;
+}
